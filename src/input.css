@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+::-webkit-scrollbar{
+    border-radius: 10px;
+}
+
+*{
+    scrollbar-color: #0f0f0f #1a1a1a;
+}
+
+html{
+    background: #000000;
+    color: #ffffff;
+}
+
+.myFont {
+  font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
